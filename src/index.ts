@@ -83,7 +83,8 @@ app.get('/salud', (req: Request, res: Response) => {
   res.json({ 
     status: 'OK', 
     timestamp: new Date().toISOString(),
-    ip: req.ip 
+    ip: req.ip,
+    msg:"Esta api anda flexi por la street"
   });
 });
 
